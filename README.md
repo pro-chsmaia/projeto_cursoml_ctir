@@ -1,5 +1,5 @@
 # CTap
-## **C**lassificação **T**extual por **ap**roximação
+## Classificação Textual por aproximação
 
 ### Projeto didático apresentado no Curso Inteligência Artificial na prática: machine learning 
 

@@ -3,7 +3,7 @@
 ![Projeto_didatico](http://img.shields.io/static/v1?label=FINALIDADE&message=DIDÁTICA&color=green)
 
 ### Projeto didático apresentado no Curso:
-***Inteligência Artificial na prática: machine learning*** / ESMPU - *Maio/2023*
+***Inteligência Artificial na prática: Machine Learning*** / ESMPU - *Maio/2023*
 
 ---
 

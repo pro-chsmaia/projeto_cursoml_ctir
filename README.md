@@ -14,5 +14,13 @@ Autores:
 #### Solução construída
 
 #### Fonte de dados
+
+> Requisitos da base de dados: vocabulário restrito e reduzido número de categorias.
+
+> DataFrame "dfClasseTexto" com os seguintes campos:
+>> [**classe**]: Categoria do texto
+>>
+>> [**texto**]: Texto para classificação.
+
 Base de dados textuais de Acórdãos do TCU.
 

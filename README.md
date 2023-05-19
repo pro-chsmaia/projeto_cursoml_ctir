@@ -1,11 +1,11 @@
-## Projeto didático apresentado no Curso:
+## CTap: Classificação Textual por aproximação
+### Projeto didático apresentado no Curso:
 ***Inteligência Artificial na prática: machine learning***
 
 Escola Superior do Ministério Público da União (ESMPU)
 
 *Maio/2023*
 
-#### CTap: Classificação Textual por aproximação
 Autores:
 
 ##### Desafio de negócio

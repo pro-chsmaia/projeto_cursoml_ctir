@@ -7,7 +7,9 @@
 
 ---
 
-Autores:
+Equipe:
+> Christiano Maia
+> Denard Soares
 
 #### Desafio de negócio
 

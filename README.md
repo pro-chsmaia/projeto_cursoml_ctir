@@ -12,18 +12,42 @@ Equipe:
 >
 > [Denard Soares](https://www.linkedin.com/in/denard)
 
-#### Desafio de negócio
+### Desafio
+- Recuperação de acurácia em classificação de textos com alta incidência de ruído.
+  - Erros no reconhecimento óptico de caracteres (OCR);
+  - Erros de digitação (como substituição ou exclusão aleatória de caracteres em palavras).
 
-#### Solução construída
+### Requisitos da base de dados
+- Mínimo de 10K linhas rotuladas.
 
-#### Fonte de dados
+- Campos:
+> 'classe': categoria do texto
+> 
+> 'texto' : texto sem ruído
+> 
+> 'textoComRuido': texto após aumento de dados (ruído)
 
-> Requisitos da base de dados: vocabulário restrito e reduzido número de categorias.
 
-> DataFrame "dfClasseTexto" com os seguintes campos:
->> [**classe**]: Categoria do texto
->>
->> [**texto**]: Texto para classificação.
+### Experimentos implementados
 
-Base de dados textuais de Acórdãos do TCU.
+#### SGD Classifier loss='log_loss' sobre texto SEM e COM ruído
+> Queda sensível para dados COM ruído;
+> 
+> Recuperação progressiva da acurácia em função do aumento da quantidade de dados.
 
+#### SGD Classifier loss='log_loss' com mind_df = 4
+> Cut-off: mínimo DF (document frequency);
+> 
+> Melhoria ínfima e apenas com aumento da quantidade de dados.
+
+#### SGD Classifier loss='log_loss' com Tf-idf com limitadores
+> Cut-off para reduzir ou eliminar tokens de baixa relevância (ruído);
+> 
+> Potencializar tokens de alta relevância.
+
+#### SGD Classifier loss='log_loss' e loss='hinge' sobre texto COM ruído
+> Princípio da dobradiça (hinge) de margem máxima do SVM
+> 
+> Melhora progressiva da acurácia e aparente estabilização.
+
+#### Resumo: SGD Classifier loss='hinge', min_df=4 e Tf-idf limitado

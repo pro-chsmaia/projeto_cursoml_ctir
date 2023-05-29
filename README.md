@@ -10,7 +10,7 @@
 Equipe:
 > Christiano Maia
 >
-> Denard Soares
+> [Denard Soares](https://www.linkedin.com/in/denard)
 
 #### Desafio de negócio
 

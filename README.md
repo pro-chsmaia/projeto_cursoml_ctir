@@ -17,16 +17,20 @@ Equipe:
   - Erros no reconhecimento óptico de caracteres (OCR);
   - Erros de digitação (como substituição ou exclusão aleatória de caracteres em palavras).
 
-### Requisitos da base de dados
-- Mínimo de 10K linhas rotuladas.
+### Fonte de dados e requisitos
+- A motivação inicial do projeto foi a classificação de pronunciamentos judiciais. Contudo, a fim de buscar a generalização do modelo, os experimentos foram testados com base de dados utilizada no treinamento, que pode ser obtida a partir do serviço de pesquisa de Jurisprudência do TCU (pesquisa.apps.tcu.gov.br).
+- Para a realização de testes, com o código atualmente disponível, pode ser utilizada qualquer base de dados que atenda aos requisitos:
 
-- Campos:
-> 'classe': categoria do texto
-> 
-> 'texto' : texto sem ruído
-> 
-> 'textoComRuido': texto após aumento de dados (ruído)
+> Mínimo de 10K linhas rotuladas.
+>
+> Campos:
+>> 'classe': categoria do texto
+>> 
+>> 'texto' : texto sem ruído
+>> 
+>> 'textoComRuido': texto após aumento de dados (ruído)
 
+- Há várias bibliotecas python para aumento de dados. Para este projeto, foi utilizada a nlpaug.
 
 ### Experimentos implementados
 

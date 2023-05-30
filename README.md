@@ -10,7 +10,7 @@
 Equipe:
 > Christiano Maia
 >
-> [Denard Soares](https://www.linkedin.com/in/denard)
+> [Denard Soares](https://github.com/denards)
 
 ### Desafio
 - Recuperação de acurácia em classificação de textos com alta incidência de ruído.

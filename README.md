@@ -6,6 +6,7 @@
 ***Inteligência Artificial na prática: Machine Learning*** / ESMPU - *Maio/2023*
 
 ---
+[Apresentação do projeto](https://github.com/pro-chsmaia/projeto_cursoml_ctir/blob/main/CTir_v0.1.pdf)
 
 Equipe:
 > Christiano Maia
